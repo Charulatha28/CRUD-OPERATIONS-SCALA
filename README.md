@@ -13,13 +13,14 @@ Postgres database.
 * Install Intellij
 * Install Postgres and create a table name (Employee).
 
-##Configure
+
+## Configure
 
 
 Set DB configuration parameters in conf/application.conf.
 
 
-##Steps to run
+## Steps to run
 
 
 Run the app with sbt run. The app will be available.
