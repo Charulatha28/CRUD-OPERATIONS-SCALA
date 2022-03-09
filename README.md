@@ -15,9 +15,12 @@ Postgres database.
 
 ##Configure
 
+
 Set DB configuration parameters in conf/application.conf.
 
+
 ##Steps to run
+
 
 Run the app with sbt run. The app will be available.
 
