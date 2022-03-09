@@ -9,19 +9,16 @@ Postgres database.
 
 ## Pre-requisite
 
-------
 
 * Install Intellij
 * Install Postgres and create a table name (Employee).
 
 ##Configure
 
-----
 Set DB configuration parameters in conf/application.conf.
 
 ##Steps to run
 
-----
 Run the app with sbt run. The app will be available.
 
 * For Insertion: http://localhost:9000/empCreationForm
