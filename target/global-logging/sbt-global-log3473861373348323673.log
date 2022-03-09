@@ -1,0 +1,19 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Exporting web-assets:play-exam-work
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\charu\IdeaProjects\play-exam-work\backendPostgres\target\scala-2.13\classes ...
+[warn] 2 deprecations (since 2.13.0); re-run with -deprecation for details
+[warn] one warning found
+[info] done compiling
+[info] compiling 1 Scala source to C:\Users\charu\IdeaProjects\play-exam-work\target\scala-2.13\classes ...
+[info] done compiling
+[debug] Forcing garbage collection...
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] In the last 1468 seconds, 5.411 (0.4%) were spent in GC. [Heap: 0.54GB free of 0.73GB, max 1.33GB] Consider increasing the JVM heap using `-Xmx` or try a different collector, e.g. `-XX:+UseG1GC`, for better performance.
+[debug] Exporting web-assets:play-exam-work
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

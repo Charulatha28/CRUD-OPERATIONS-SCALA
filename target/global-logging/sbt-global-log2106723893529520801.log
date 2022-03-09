@@ -1,0 +1,8 @@
+[debug] > Exec(lean, None, None)
+[error] Not a valid command: lean (similar: client, last, eval)
+[error] Not a valid project ID: lean
+[error] Expected ':'
+[error] Not a valid key: lean (similar: clean, cleanIvy, lintian)
+[error] lean
+[error]     ^
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,30 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+# An example controller showing a sample home page
+GET     /                           controllers.HomeController.index()
+GET     /allEmployeeDetails                     controllers.Emp1.selectAllEmployee
+GET     /empView                    controllers.Emp1.selectEmp
++ nocsrf
+POST    /select                     controllers.Emp1.selectEmployee
+GET     /empDelete                     controllers.Emp1.delete
++ nocsrf
+POST     /delete                     controllers.Emp1.deleteEmp
+GET     /updateEmployee                     controllers.Emp1.update
++ nocsrf
+POST     /empUpdate                    controllers.Emp1.updateEmp
+GET    /empCreationForm                      controllers.Emp1.login
++ nocsrf
+POST    /employeeCreation             controllers.Emp1.validateLogin
++ nocsrf
+
+
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+
+#For Insertion: http://localhost:9000/empCreationForm
+#For Updation: http://localhost:9000/updateEmployee
+#For delete : http://localhost:9000/empDelete
+#For selecting one employee: http://localhost:9000/empView
+#For viewing all the employees:http://localhost:9000/allEmployeeDetails

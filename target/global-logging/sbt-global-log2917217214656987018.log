@@ -1,0 +1,23 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\charu\IdeaProjects\play-exam-work\backendPostgres\target\scala-2.13\classes ...
+[warn] C:\Users\charu\IdeaProjects\play-exam-work\backendPostgres\src\main\scala\backend\InsertRecord.scala:14:5: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+[warn]     try {
+[warn]     ^
+[warn] C:\Users\charu\IdeaProjects\play-exam-work\backendPostgres\src\main\scala\backend\InsertRecord.scala:37:5: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+[warn]     try {
+[warn]     ^
+[warn] C:\Users\charu\IdeaProjects\play-exam-work\backendPostgres\src\main\scala\backend\InsertRecord.scala:73:5: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+[warn]     try {
+[warn]     ^
+[warn] C:\Users\charu\IdeaProjects\play-exam-work\backendPostgres\src\main\scala\backend\InsertRecord.scala:94:5: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+[warn]     try {
+[warn]     ^
+[warn] 1 deprecation (since 2.13.0); re-run with -deprecation for details
+[warn] 5 warnings found
+[info] done compiling
+[info] compiling 12 Scala sources and 1 Java source to C:\Users\charu\IdeaProjects\play-exam-work\target\scala-2.13\classes ...
+[info] done compiling
+[success] Total time: 3 s, completed 2 Feb, 2022 6:20:58 PM
+[debug] > Exec(idea-shell, None, None)

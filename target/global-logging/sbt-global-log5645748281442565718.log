@@ -1,0 +1,9 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\charu\IdeaProjects\Crud-Operations-Scala\backendPostgres\target\scala-2.13\classes ...
+[info] done compiling
+[info] compiling 12 Scala sources and 1 Java source to C:\Users\charu\IdeaProjects\Crud-Operations-Scala\target\scala-2.13\classes ...
+[info] done compiling
+[success] Total time: 12 s, completed 9 Mar, 2022 10:35:12 AM
+[debug] > Exec(idea-shell, None, None)
